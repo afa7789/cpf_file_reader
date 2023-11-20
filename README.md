@@ -6,6 +6,7 @@ build it:
 `clang++ -arch arm64 -std=c++11 -stdlib=libc++ cpf_file_reader.cpp -o readerCPF`
 
 running it
+
 `./readerCPF FILE_NAME.txt output_v.txt "NAME " AGE_START AGE_END`
 
 files found are formatted like this
